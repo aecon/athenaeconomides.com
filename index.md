@@ -17,7 +17,7 @@ layout: default
 
 
 # Teaching
-* External Lecturer, HPCSE II, ETH Zurich.
+* External Lecturer, HPCSE II, ETH Zurich (Spring 2023).
 * Teaching Fellow at Harvard University (ES123, Spring 2022).
 * Head TA: High Performance Computing for Science and Engineering II (Spring 2021).
 * TA: High Performance Computing for Science and Engineering I (2017-2019).
