@@ -31,7 +31,9 @@ layout: default
 
 # Contact
 
-Department of Quantitative Biomedicine<br>
-University of Zurich<br>
-Y38-M-32, Winterthurerstrasse 190<br>
-CH-8057, Zurich<br>
+<i class="fa-solid fa-envelope"></i> athena[dot]economides[at]uzh[dot]ch
+
+ETH Zurich & University of Zurich<br>
+CH-8006, Zurich<br>
+Switzerland<br>
+
