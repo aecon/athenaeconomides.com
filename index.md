@@ -3,31 +3,60 @@ layout: default
 ---
 
 # Hi, I'm Athena!
-**Postdoc**  •  **University of Zurich**
+**Postdoc**  •  **Computational Engineer**
 
 
 ## Education
 
-* Ph.D., Computational Science and Engineering, D-MAVT, ETH Zürich, 2020.
-* M.Sc., Mechanical Engineering, University of Cyprus, 2015.
-* B.Sc., Mechanical Engineering, University of Cyprus, 2013.
+* Ph.D., Computational Science and Engineering, D-MAVT, ETH Zürich, 2020
+* M.Sc., Mechanical Engineering, University of Cyprus, 2015
+* B.Sc., Mechanical Engineering, University of Cyprus, 2013
 
 
 ## Research Interests
 
-* Quantitative imaging in Neuropathology.
-* Computational microfluidics of blood flow.
-* Bayesian inference & Uncertainty Quantification.
+* Image Processing
+* Computational microfluidics  |  Blood flow simulations
+* Bayesian inference | Uncertainty Quantification
+
+## Experience
+
+* **External Lecturer, ETH Zurich**<br>
+*02/2023 - present*<br>
+Course: High Performance Computing for Science and Engineering II<br>
+Department of Mechanical and Process Engineering (D-MAVT)
+
+* **Postdoctoral Researcher, University of Zurich**<br>
+*01/2021 - present*<br>
+Institude of Neuropathology | Prof. Adriano Aguzzi<br>
+Department of Quantitative Biomedicine | Prof. Magdalini Polymenidou
+
+* **Teaching Fellow** & **Postdoctoral Associate, Harvard University**<br>
+*01/2021-12/2022*<br>
+Course: Introduction to Fluid Mechanics and Transport Processes<br>
+John A. Paulson School of Engineering and Applied Sciences
+
+* **Postdoctoral Researcher, ETH Zurich**<br>
+*11/2020-12/2022*<br>
+Computational Science and Engineering lab | Prof. Petros Koumoutsakos
+
+* **Visiting PhD student, Massachusetts General Hospital**<br>
+*03/2017-06/2017*<br>
+Center for Engineering in Medicine | Prof. Mehmet Toner
+
+* **Research Assistant (PhD student), ETH Zurich**<br>
+*10/2014-10/2020*<br>
+Computational Science and Engineering lab | Prof. Petros Koumoutsakos
 
 
 ## Teaching
 
-* External Lecturer, HPCSE II, ETH Zurich (Spring 2023).
-* Teaching Fellow at Harvard University (ES123, Spring 2022).
-* Head TA: High Performance Computing for Science and Engineering II (Spring 2021).
-* TA: High Performance Computing for Science and Engineering I (2017-2019).
-* TA: Computational Methods for Engineering Applications (2015-2016).
-* TA: Engineering Tool III: Object oriented programming with C++ (Spring 2015).
+* External Lecturer, HPCSE II, ETH Zurich (Spring 2023)
+* Teaching Fellow at Harvard University (ES123, Spring 2022)
+* Head TA: High Performance Computing for Science and Engineering II (Spring 2021)
+* TA: High Performance Computing for Science and Engineering I (2017-2019)
+* TA: Computational Methods for Engineering Applications (2015-2016)
+* TA: Engineering Tool III: Object oriented programming with C++ (Spring 2015)
 
 ## Links
 
