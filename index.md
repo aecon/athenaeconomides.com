@@ -16,8 +16,9 @@ layout: default
 ## Research Interests
 
 * Image Processing
-* Computational microfluidics  |  Blood flow simulations
-* Bayesian inference | Uncertainty Quantification
+* Computational microfluidics & Blood flow simulations
+* Bayesian inference & Uncertainty Quantification
+
 
 ## Experience
 
