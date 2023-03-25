@@ -53,7 +53,8 @@ Computational Science and Engineering lab | Prof. Petros Koumoutsakos
 ## Teaching
 
 * External Lecturer, HPCSE II, ETH Zurich (Spring 2023)
-* Teaching Fellow at Harvard University (ES123, Spring 2022)
+* Head TA: High Performance Computing for Science and Engineering I (Fall 2022)
+* Teaching Fellow, ES123, Harvard University (Spring 2022)
 * Head TA: High Performance Computing for Science and Engineering II (Spring 2021)
 * TA: High Performance Computing for Science and Engineering I (2017-2019)
 * TA: Computational Methods for Engineering Applications (2015-2016)
