@@ -61,7 +61,7 @@ Computational Science and Engineering lab | Prof. Petros Koumoutsakos
 
 ## Links
 
-<i class="fa-solid fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=EICX1aMAAAAJ) • <i class="fa-brands fa-linkedin"></i> [Linkedin](https://ch.linkedin.com/in/athena-economides)
+<i class="fa-solid fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=EICX1aMAAAAJ) • <i class="fa-brands fa-linkedin"></i> [Linkedin](https://ch.linkedin.com/in/athena-economides) • <i class="fa-solid fa-laptop"></i> [Workpage UZH](https://www.polymenidoulab.com/people.html) • <i class="fa-solid fa-laptop"></i> [Workpage ETHZ](https://www.cse-lab.ethz.ch/member/athena-economides/)
 
 
 ## Contact
