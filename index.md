@@ -2,21 +2,26 @@
 layout: default
 ---
 
-# Research Interests
-
-* Quantitative imaging in Neuropathology.
-* Computational microfluidics of blood flow.
-* Bayesian inference & Uncertainty Quantification.
+# Hi, I'm Athena!
+**Postdoc**  •  **University of Zurich**
 
 
-# Education
+## Education
 
 * Ph.D., Computational Science and Engineering, D-MAVT, ETH Zürich, 2020.
 * M.Sc., Mechanical Engineering, University of Cyprus, 2015.
 * B.Sc., Mechanical Engineering, University of Cyprus, 2013.
 
 
-# Teaching
+## Research Interests
+
+* Quantitative imaging in Neuropathology.
+* Computational microfluidics of blood flow.
+* Bayesian inference & Uncertainty Quantification.
+
+
+## Teaching
+
 * External Lecturer, HPCSE II, ETH Zurich (Spring 2023).
 * Teaching Fellow at Harvard University (ES123, Spring 2022).
 * Head TA: High Performance Computing for Science and Engineering II (Spring 2021).
@@ -24,12 +29,12 @@ layout: default
 * TA: Computational Methods for Engineering Applications (2015-2016).
 * TA: Engineering Tool III: Object oriented programming with C++ (Spring 2015).
 
-# Links
+## Links
 
 <i class="fa-solid fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=EICX1aMAAAAJ) • <i class="fa-brands fa-linkedin"></i> [Linkedin](https://ch.linkedin.com/in/athena-economides)
 
 
-# Contact
+## Contact
 
 <i class="fa-solid fa-envelope"></i> athena[dot]economides[at]uzh[dot]ch
 
