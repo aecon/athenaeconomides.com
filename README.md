@@ -30,6 +30,8 @@ Ruby is needed for Jekyll. Node is needed for Tailwind. At some point when the s
   bundle exec jekyll serve --livereload
   ```
 
-  ### Notes
+### Notes
 
-  `.ruby-version` is required for GitHub Actions to build!
+- `.ruby-version` is required for GitHub Actions to build!
+- Icons: https://fontawesome.com/
+- Jekyll Documentation: https://jekyllrb.com/docs/
