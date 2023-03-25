@@ -29,7 +29,7 @@ Department of Mechanical and Process Engineering (D-MAVT)
 
 * **Postdoctoral Researcher, University of Zurich**<br>
 *01/2021 - present*<br>
-Institude of Neuropathology | Prof. Adriano Aguzzi<br>
+Institute of Neuropathology | Prof. Adriano Aguzzi<br>
 Department of Quantitative Biomedicine | Prof. Magdalini Polymenidou
 
 * **Teaching Fellow** & **Postdoctoral Associate, Harvard University**<br>
