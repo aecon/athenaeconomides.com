@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "pos": "^0.4.2",
+    "postcss": "^8.4.19",
+    "tailwind": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "cssnano": "^5.1.14",
+    "tailwindcss": "^3.2.4"
+  }
+}
+

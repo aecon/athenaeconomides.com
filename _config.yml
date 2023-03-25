@@ -1,0 +1,14 @@
+url: "https://athenaeconomides.com" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Athina Economides" # the name of your site, e.g. ACME Corp.
+description: ""
+author:
+  name: "Athina"
+  surname: "Economides"
+  email: ""
+
+plugins:
+  - jekyll-postcss
+  - jekyll-sitemap
+
+postcss:
+  cache: false
