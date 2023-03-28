@@ -24,10 +24,14 @@ layout: default
 
 ### Image Processing in Neuropathology
 
+#### Segmentation of neuronal cells in whole mouse brains
+
+<img src="graphics/avg_group_1.gif" width="50%" height="50%"/>
+
 ![](graphics/avg_group_1.gif) ![](graphics/avg_group_2.gif)
 ![](graphics/avg_group_3.gif)
 
-
+*An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. Publication is currently under review - stay tuned!*
 
 
 
