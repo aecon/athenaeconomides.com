@@ -26,7 +26,7 @@ layout: default
 
 #### Segmentation of neuronal cells in whole mouse brains
 
-<img src="graphics/avg_group_1.gif" width="50%" height="50%"/>
+<img src="graphics/avg_group_1.gif" width="10%" height="10%"/>
 
 ![](graphics/avg_group_1.gif) ![](graphics/avg_group_2.gif)
 ![](graphics/avg_group_3.gif)
