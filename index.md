@@ -26,11 +26,7 @@ layout: default
 
 #### Segmentation of neuronal cells in whole mouse brains
 
-<p float="center">
-  <img src="graphics/avg_group_1.gif" width="30%" height="30%"/>
-  <img src="graphics/avg_group_2.gif" width="30%" height="30%"/>
-  <img src="graphics/avg_group_3.gif" width="30%" height="30%"/>
-</p>
+<img src="graphics/avg_all_groups.gif"/>
 
 
 *An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. Publication currently under review - stay tuned!*
