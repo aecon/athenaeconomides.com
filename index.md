@@ -20,18 +20,33 @@ layout: default
 * Bayesian inference & Uncertainty Quantification
 
 
-## Projects
+## Selected Projects
 
 ### Image Processing in Neuropathology
+During my Joint post-doc at the labs of Prof. Petros Koumoutsakos (ETH Zurich) and Prof. Adriano Aguzzi (University of Zurich), I developed computational pipelines to process large, volumetric image data obtained via light-sheet microscopy. See below for selected projects!
 
-#### Segmentation of neuronal cells in whole mouse brains
+
+#### * Segmentation of neuronal cells in whole mouse brains
+An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain.
+*Publication currently under review - stay tuned!*
 <img src="graphics/avg_all_groups.gif"/>
-*An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. Publication currently under review - stay tuned!*
 
 
-#### Segmentation of microglia cells in drug efficacy studies
+#### * Segmentation of microglia cells in drug efficacy studies
+A study for the efficacy of different drugs in neurodegenerative diseases. Publication currently under preparation!
 <img src="graphics/group3_CombinedFrontSide.jpg"/>
-*An international collaboration aiming to study the efficacy of different drugs in neurodegenerative diseases. Publication currently under preparation!*
+
+
+### Simulations of blood microfluidics
+Performed during my PhD studies and postdoc at the lab of Prof. Petros Koumoutsakos.
+
+#### * Quantification of the stress-free state of human red blood cells
+Coming soon :)
+
+
+#### * Hierarchical Bayesian uncertainty quantification for red blood cell models
+Coming soon :)
+
 
 
 
