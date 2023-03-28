@@ -25,11 +25,13 @@ layout: default
 ### Image Processing in Neuropathology
 
 #### Segmentation of neuronal cells in whole mouse brains
-
 <img src="graphics/avg_all_groups.gif"/>
-
-
 *An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. Publication currently under review - stay tuned!*
+
+
+#### Segmentation of microglia cells in drug efficacy studies
+<img src="graphics/group3_CombinedFrontSide.jpg"/>
+*An international collaboration aiming to study the efficacy of different drugs in neurodegenerative diseases. Publication currently under preparation!*
 
 
 
