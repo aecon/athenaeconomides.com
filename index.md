@@ -24,7 +24,7 @@ layout: default
 
 ### Image Processing in Neuropathology
 
-![](https://github.com/aecon/athenaeconomides.com/tree/main/graphics/anim_avg_group_1.avi.gif)
+![](graphics/anim_avg_group_1.avi.gif)
 
 
 
