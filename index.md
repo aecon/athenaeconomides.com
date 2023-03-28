@@ -33,19 +33,21 @@ An international collaboration aiming to develop a new protein-based delivery sy
 
 
 #### * Segmentation of microglia cells in drug efficacy studies
-A study for the efficacy of different drugs in neurodegenerative diseases. Publication currently under preparation!
+A study for the efficacy of different drugs in neurodegenerative diseases.
+*Publication currently under preparation!*
 <img src="graphics/group3_CombinedFrontSide.jpg"/>
 
 
 ### Simulations of blood microfluidics
-Performed during my PhD studies and postdoc at the lab of Prof. Petros Koumoutsakos.
+
 
 #### * Quantification of the stress-free state of human red blood cells
-Coming soon :)
+TBD
 
 
 #### * Hierarchical Bayesian uncertainty quantification for red blood cell models
-Coming soon :)
+TBD
+
 
 
 
