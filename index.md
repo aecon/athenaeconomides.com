@@ -20,6 +20,16 @@ layout: default
 * Bayesian inference & Uncertainty Quantification
 
 
+## Projects
+
+### Image Processing in Neuropathology
+
+![](https://github.com/aecon/athenaeconomides.com/tree/main/graphics/anim_avg_group_1.avi.gif)
+
+
+
+
+
 ## Experience
 
 * **External Lecturer, ETH Zurich**<br>
