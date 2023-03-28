@@ -24,7 +24,8 @@ layout: default
 
 ### Image Processing in Neuropathology
 
-![](graphics/anim_avg_group_1.avi.gif)
+![](graphics/avg_group_1.gif) ![](graphics/avg_group_2.gif)
+![](graphics/avg_group_3.gif)
 
 
 
