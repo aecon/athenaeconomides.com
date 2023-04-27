@@ -26,7 +26,7 @@ During my Joint post-doc at the labs of Prof. Petros Koumoutsakos (ETH Zurich) a
 
 
 ### Segmentation of neuronal cells in whole mouse brains
-<img align="left" src="graphics/avg_all_groups_360x140.jpg" HSPACE="10" VSPACE="10"/>
+<img style="float: left;" src="graphics/avg_all_groups_360x140.jpg" HSPACE="10" VSPACE="10">
 An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. 3D images of whole mouse-brain scans were used to detect the bio-distribution of the delivery system, using light-sheet microscopy.
 Image processing was performed using a custom, in-house developed pipeline, employing shared-memory parallelism, targeted for fast processing of large 3D image datasets. Publication currently under review in Cell.
 <br clear="left"/>
@@ -42,6 +42,7 @@ Publication under preparation.
 ## 
 ### * Quantification of the stress-free state of human red blood cells
 TBD
+<img align="left" src="graphics/avg_all_groups_360x140.jpg" HSPACE="10" VSPACE="10"/>
 
 
 ## 
