@@ -66,7 +66,7 @@ Department of Quantitative Biomedicine | Prof. Magdalini Polymenidou
 Course: High Performance Computing for Science and Engineering II<br>
 Department of Mechanical and Process Engineering (D-MAVT)
 
-* **Teaching Fellow** & **Postdoctoral Associate, Harvard University**<br>
+* **Teaching Fellow & Postdoctoral Associate, Harvard University**<br>
 *01/2021-12/2022*<br>
 Course: Introduction to Fluid Mechanics and Transport Processes<br>
 John A. Paulson School of Engineering and Applied Sciences
