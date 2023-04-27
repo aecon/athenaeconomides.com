@@ -34,7 +34,7 @@ Image processing was performed using a custom, in-house developed pipeline, empl
 
 
 #### * Segmentation of microglia cells in drug efficacy studies
-<img align="right" src="graphics/graphics/Microglia_403x238.jpg"/>
+<img align="right" src="graphics/Microglia_403x238.jpg"/>
 A study for the efficacy of different drugs in neurodegenerative diseases.
 A novel image processing pipeline was developed to quantify drug efficacy on the sub-cellular level, through object segmentation of stained neural cells in 3D whole mouse-brain scans.
 Publication under preparation.
