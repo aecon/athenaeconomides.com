@@ -39,14 +39,11 @@ Publication under preparation.
 <br clear="left"/>
 
 
-## 
-### * Quantification of the stress-free state of human red blood cells
+### Quantification of the stress-free state of human red blood cells
 TBD
-<img align="left" src="graphics/avg_all_groups_360x140.jpg" HSPACE="10" VSPACE="10"/>
 
 
-## 
-### * Hierarchical Bayesian uncertainty quantification for red blood cell models
+### Hierarchical Bayesian uncertainty quantification for red blood cell models
 TBD
 
 
