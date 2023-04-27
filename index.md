@@ -22,7 +22,7 @@ layout: default
 
 ## Selected Projects
 
-My research interests lie on the interface of Computational Science and Bio-Engineering.
+My research interests lie at the interface of Computational Science and Bio-Engineering.
 I enjoy developing computational tools and algorithms to solve problems in Computational Biology.
 Current and past applications include: Image Processing for 3D biological datasets, Modeling and Simulation of biological flows, and Uncertainty Quantification for the inference and calibration of model parameters.
 
@@ -33,16 +33,6 @@ An international collaboration aiming to develop a new protein-based delivery sy
 Image processing was performed using a custom, in-house developed pipeline, employing shared-memory parallelism, targeted for fast processing of large 3D image datasets.
 
 *Publication under review in Cell.*
-<BR CLEAR="left"/>
-
-
-### Molecule colocalization via super resolution microscopy
-<IMG SRC="graphics/superresolution_320x190.jpg" ALIGN="left" HSPACE="10"/>
-
-A study for the efficacy of different drugs in neurodegenerative diseases.
-A novel image processing pipeline was developed to quantify drug efficacy on the sub-cellular level, through object segmentation of stained neural cells in 3D whole mouse-brain scans.
-
-*Publication under preparation.*
 <BR CLEAR="left"/>
 
 
@@ -70,6 +60,18 @@ We believe that the model introduced in this study opens new frontiers for high 
 
 [Publication (2021):](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062)  *Economides, A., Arampatzis, G., Alexeev, D., Litvinov, S., Amoudruz, L., Kulakova, L., Papadimitriou, C. and Koumoutsakos, P., 2021. Hierarchical Bayesian uncertainty quantification for a model of the red blood cell. Physical Review Applied, 15(3), p.034062.*
 
+
+### Uncertainty Quantification in realistic Engineering problems
+<IMG SRC="graphics/korali_320x190.jpg" ALIGN="left" HSPACE="10"/>
+Korali is an open-source framework for large-scale Bayesian uncertainty quantification and stochastic optimization.
+The framework relies on non-intrusive sampling of complex multiphysics models and enables their exploitation for optimization and decision-making.
+Its distributed sampling engine makes efficient use of massively-parallel architectures, while introducing novel fault tolerance and load balancing mechanisms.
+The capabilities of the framework were demonstrated in a set of study cases, with applications on molecular dynamics, blood microfluidics, and pipe flow optimization.
+<BR CLEAR="left"/>
+
+[Publication (2022):](https://www.sciencedirect.com/science/article/pii/S0045782521005752)  *Martin, S.M., Wälchli, D., Arampatzis, G., Economides, A.E., Karnakov, P. and Koumoutsakos, P., 2022. Korali: Efficient and scalable software framework for Bayesian uncertainty quantification and stochastic optimization. Computer Methods in Applied Mechanics and Engineering, 389, p.114264.*
+
+[Publication (2020):](https://dl.acm.org/doi/abs/10.1145/3394277.3401849)  *Wälchli, D., Martin, S.M., Economides, A., Amoudruz, L., Arampatzis, G., Bian, X. and Koumoutsakos, P., 2020, June. Load balancing in large scale bayesian inference. In Proceedings of the Platform for Advanced Scientific Computing Conference (pp. 1-12).*
 
 
 
