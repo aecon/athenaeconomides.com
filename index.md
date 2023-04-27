@@ -29,7 +29,7 @@ During my Joint post-doc at the labs of Prof. Petros Koumoutsakos (ETH Zurich) a
 #### * Segmentation of neuronal cells in whole mouse brains
 An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain.
 *Publication currently under review - stay tuned!*
-<img src="graphics/avg_all_groups.gif"/>
+<img src="graphics/avg_all_groups_360x140.jpg"/>
 
 
 #### * Segmentation of microglia cells in drug efficacy studies
