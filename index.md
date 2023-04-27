@@ -40,7 +40,12 @@ Publication under preparation.
 
 
 ### Quantification of the stress-free state of human red blood cells
-TBD
+<IMG SRC="graphics/rbc-sfs.jpg" ALIGN="center" VSPACE="10"/>
+Human erythrocytes are the dominant constituents of blood and their dynamics is governed by the visco-elastic properties of their membrane. Despite its importance, today’s RBC membrane models are not able to predict blood flows without case specific adjustment of their parameters. Existing RBC models rely on the assumption of a stress-free state (SFS) of the cytoskeleton. This state is arbitrarily selected while current experimental methods cannot measure it directly. Essentially RBC models are not transferable and their parameters are adapted arbitrarily across flow configurations (see Table 1 in Economides et al. [1]). Here, we introduce a transferable RBC model (t-RBC) parameterized by the SFS and the visco-elastic properties of the membrane. The model is calibrated from single-cell experiments using Bayesian inference. The t-RBC model is tested on several flow configurations and is shown to reproduce a wide range of experimental data without further calibration of its parameters. We believe that the model introduced in this study opens new frontiers for high fidelity predictions of blood flows.  
+
+Amoudruz, L., Economides, A., Arampatzis, G. and Koumoutsakos, P., 2023. The stress-free state of human erythrocytes: Data-driven inference of a transferable RBC model. Biophysical Journal.
+
+[paper](https://www.sciencedirect.com/science/article/pii/S0006349523001728)
 
 
 ### Hierarchical Bayesian uncertainty quantification for red blood cell models
