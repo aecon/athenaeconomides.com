@@ -61,7 +61,7 @@ We believe that the model introduced in this study opens new frontiers for high 
 [Publication (2021):](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062)  *Economides, A., Arampatzis, G., Alexeev, D., Litvinov, S., Amoudruz, L., Kulakova, L., Papadimitriou, C. and Koumoutsakos, P., 2021. Hierarchical Bayesian uncertainty quantification for a model of the red blood cell. Physical Review Applied, 15(3), p.034062.*
 
 
-### Uncertainty Quantification in realistic Engineering problems
+### Uncertainty quantification in realistic, computationally expensive engineering models
 <IMG SRC="graphics/korali_320x190.jpg" ALIGN="left" HSPACE="10"/>
 Korali is an open-source framework for large-scale Bayesian uncertainty quantification and stochastic optimization.
 The framework relies on non-intrusive sampling of complex multiphysics models and enables their exploitation for optimization and decision-making.
