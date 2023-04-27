@@ -26,18 +26,16 @@ During my Joint post-doc at the labs of Prof. Petros Koumoutsakos (ETH Zurich) a
 
 
 ### Segmentation of neuronal cells in whole mouse brains
-<img align="left" src="graphics/avg_all_groups_360x140.jpg" HSPACE="10" HSPACE="10"/>
+<img align="left" src="graphics/avg_all_groups_360x140.jpg" HSPACE="10" VSPACE="10"/>
 An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. 3D images of whole mouse-brain scans were used to detect the bio-distribution of the delivery system, using light-sheet microscopy.
 Image processing was performed using a custom, in-house developed pipeline, employing shared-memory parallelism, targeted for fast processing of large 3D image datasets. Publication currently under review in Cell.
-</div>
 <br clear="left"/>
 
 ### Segmentation of microglia cells in drug efficacy studies
-<img align="right" src="graphics/Microglia_322x190.jpg" HSPACE="10" HSPACE="10"/>
+<img align="right" src="graphics/Microglia_322x190.jpg" HSPACE="10" VSPACE="10"/>
 A study for the efficacy of different drugs in neurodegenerative diseases.
 A novel image processing pipeline was developed to quantify drug efficacy on the sub-cellular level, through object segmentation of stained neural cells in 3D whole mouse-brain scans.
 Publication under preparation.
-</div>
 <br clear="left"/>
 
 
