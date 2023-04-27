@@ -22,18 +22,35 @@ layout: default
 
 ## Selected Projects
 
+My research interests lie on the interface of Computational Science and Bio-Engineering.
+I enjoy developing computational tools and algorithms to solve problems in Computational Biology.
+Current and past applications include: Image Processing for 3D biological datasets, Modeling and Simulation of biological flows, and Uncertainty Quantification for the inference and calibration of model parameters.
+
 
 ### Segmentation of neuronal cells in whole mouse brains
 <IMG SRC="graphics/avg_all_groups_320x190.jpg" ALIGN="left" HSPACE="10"/>
 An international collaboration aiming to develop a new protein-based delivery system to the central nervous system of the brain. 3D images of whole mouse-brain scans were used to detect the bio-distribution of the delivery system, using light-sheet microscopy.
 Image processing was performed using a custom, in-house developed pipeline, employing shared-memory parallelism, targeted for fast processing of large 3D image datasets.
+
 *Publication under review in Cell.*
 <BR CLEAR="left"/>
+
+
+### Molecule colocalization via super resolution microscopy
+<IMG SRC="graphics/superresolution_320x190.jpg" ALIGN="left" HSPACE="10"/>
+
+A study for the efficacy of different drugs in neurodegenerative diseases.
+A novel image processing pipeline was developed to quantify drug efficacy on the sub-cellular level, through object segmentation of stained neural cells in 3D whole mouse-brain scans.
+
+*Publication under preparation.*
+<BR CLEAR="left"/>
+
 
 ### Segmentation of microglia cells in drug efficacy studies
 <IMG SRC="graphics/Microglia_320x190.jpg" ALIGN="left" HSPACE="10"/>
 A study for the efficacy of different drugs in neurodegenerative diseases.
 A novel image processing pipeline was developed to quantify drug efficacy on the sub-cellular level, through object segmentation of stained neural cells in 3D whole mouse-brain scans.
+
 *Publication under preparation.*
 <BR CLEAR="left"/>
 
