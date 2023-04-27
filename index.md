@@ -41,7 +41,7 @@ A novel image processing pipeline was developed to quantify drug efficacy on the
 
 
 ### Quantification of the stress-free state and viscoelastic properties of human red blood cells
-<IMG SRC="graphics/rbc-sfs_320x190.jpg" ALIGN="left" HSPACE="10"/>
+<IMG SRC="graphics/rbc-sfs_hr.jpg" ALIGN="left" HSPACE="10"/>
 Human erythrocytes are the dominant constituents of blood comprising around 50% of blood volume.
 It is well known that their dynamics are governed by the visco-elastic properties of their membrane.
 Despite its importance, today’s RBC membrane models are not able to predict blood flows without case specific adjustment of their parameters.
@@ -57,7 +57,7 @@ We believe that the model introduced in this study opens new frontiers for high 
 
 
 ### Uncertainty quantification in realistic, computationally expensive engineering models
-<IMG SRC="graphics/korali_320x190.jpg" ALIGN="left" HSPACE="10"/>
+<IMG SRC="graphics/korali_hr.jpg" WIDTH="320" HEIGHT="190" ALIGN="left" HSPACE="10"/>
 Korali is an open-source framework for large-scale Bayesian uncertainty quantification and stochastic optimization.
 The framework relies on non-intrusive sampling of complex multiphysics models and enables their exploitation for optimization and decision-making.
 Its distributed sampling engine makes efficient use of massively-parallel architectures, while introducing novel fault tolerance and load balancing mechanisms.
