@@ -40,7 +40,7 @@ A novel image processing pipeline was developed to quantify drug efficacy on the
 <BR CLEAR="left"/>
 
 
-### Quantification of the stress-free state of human red blood cells
+### Quantification of the stress-free state and viscoelastic properties of human red blood cells
 <IMG SRC="graphics/rbc-sfs_320x190.jpg" ALIGN="left" HSPACE="10"/>
 Human erythrocytes are the dominant constituents of blood comprising around 50% of blood volume.
 It is well known that their dynamics are governed by the visco-elastic properties of their membrane.
@@ -49,14 +49,11 @@ Additionally, RBC models rely on the assumption of a stress-free state (SFS) of 
 We introduced a transferable RBC model (t-RBC), and calibrated its viscoelastic properties as well as the SFS for the first time, using Bayesian inference.
 The t-RBC model is tested on several flow configurations, and is shown to reproduce a wide range of experimental data without further calibration of its parameters.
 We believe that the model introduced in this study opens new frontiers for high fidelity predictions of blood flows.  
-
-[Publication:](https://www.sciencedirect.com/science/article/pii/S0006349523001728)  *Amoudruz, L., Economides, A., Arampatzis, G. and Koumoutsakos, P., 2023. The stress-free state of human erythrocytes: Data-driven inference of a transferable RBC model. Biophysical Journal.* 
 <BR CLEAR="left"/>
 
+[Publication (2023):](https://www.sciencedirect.com/science/article/pii/S0006349523001728)  *Amoudruz, L., Economides, A., Arampatzis, G. and Koumoutsakos, P., 2023. The stress-free state of human erythrocytes: Data-driven inference of a transferable RBC model. Biophysical Journal.* 
 
-### Hierarchical Bayesian uncertainty quantification for red blood cell models
-TBD
-
+[Publication (2021):](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062)  *Economides, A., Arampatzis, G., Alexeev, D., Litvinov, S., Amoudruz, L., Kulakova, L., Papadimitriou, C. and Koumoutsakos, P., 2021. Hierarchical Bayesian uncertainty quantification for a model of the red blood cell. Physical Review Applied, 15(3), p.034062.*
 
 
 
