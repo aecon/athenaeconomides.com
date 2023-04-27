@@ -58,24 +58,25 @@ TBD
 
 ## Experience
 
-* **External Lecturer, ETH Zurich**<br>
-*02/2023 - present*<br>
-Course: High Performance Computing for Science and Engineering II<br>
-Department of Mechanical and Process Engineering (D-MAVT)
-
 * **Postdoctoral Researcher, University of Zurich**<br>
-*01/2021 - present*<br>
+*03/2023 - present*<br>
 Institute of Neuropathology | Prof. Adriano Aguzzi<br>
 Department of Quantitative Biomedicine | Prof. Magdalini Polymenidou
+
+* **External Lecturer, ETH Zurich**<br>
+*01/2023 - present*<br>
+Course: High Performance Computing for Science and Engineering II<br>
+Department of Mechanical and Process Engineering (D-MAVT)
 
 * **Teaching Fellow** & **Postdoctoral Associate, Harvard University**<br>
 *01/2021-12/2022*<br>
 Course: Introduction to Fluid Mechanics and Transport Processes<br>
 John A. Paulson School of Engineering and Applied Sciences
 
-* **Postdoctoral Researcher, ETH Zurich**<br>
+* **Postdoctoral Researcher, ETH Zurich & University Hospital of Zurich**<br>
 *11/2020-12/2022*<br>
-Computational Science and Engineering lab | Prof. Petros Koumoutsakos
+Computational Science and Engineering lab | Prof. Petros Koumoutsakos<br>
+Institute of Neuropathology | Prof. Adriano Aguzzi
 
 * **Visiting PhD student, Massachusetts General Hospital**<br>
 *03/2017-06/2017*<br>
