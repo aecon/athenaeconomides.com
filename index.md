@@ -15,17 +15,12 @@ layout: default
 
 ## Research Interests
 
-* Image Processing
-* Computational microfluidics & Blood flow simulations
-* Bayesian inference & Uncertainty Quantification
-
-
-## Selected Projects
-
 My research interests lie at the interface of Computational Science and Bio-Engineering.
 I enjoy developing computational tools and algorithms to solve problems in Computational Biology.
 Current and past applications include: Image Processing for 3D biological datasets, Modeling and Simulation of biological flows, and Uncertainty Quantification for the inference and calibration of model parameters.
 
+
+## Selected Projects
 
 ### Segmentation of neuronal cells in whole mouse brains
 <IMG SRC="graphics/avg_all_groups_320x190.jpg" ALIGN="left" HSPACE="10"/>
