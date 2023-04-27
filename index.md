@@ -22,8 +22,6 @@ layout: default
 
 ## Selected Projects
 
-During my Joint post-doc at the labs of Prof. Petros Koumoutsakos (ETH Zurich) and Prof. Adriano Aguzzi (University of Zurich), I developed computational pipelines to process large, volumetric image data obtained via light-sheet microscopy. See below for selected projects!
-
 
 ### Segmentation of neuronal cells in whole mouse brains
 <IMG SRC="graphics/avg_all_groups_320x190.jpg" ALIGN="left" HSPACE="10"/>
