@@ -6,6 +6,9 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <script src="https://kit.fontawesome.com/575b14c39d.js" crossorigin="anonymous"></script>
+    {% if jekyll.environment == "production" %}
+    <script async defer data-website-id="920f3af0-a38b-405a-a12c-fad8aaa16c0d" src="https://umami.aristot.io/umami.js"></script>
+    {% endif %}
     <script>
       //Adding inline in head to avoid FOUC
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
