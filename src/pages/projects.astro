@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Research Projects" sideBarActiveItemID="projects">
@@ -17,7 +18,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Neuronal Cell Segmentation in Whole Mouse Brains"
-    img="/avg_all_groups_hr.jpg"
+    img={`${base}/avg_all_groups_hr.jpg`}
     desc="An international collaboration aiming to develop a new protein-based delivery system to the central nervous system. 3D images of whole mouse-brain scans were used to detect the bio-distribution of the delivery system, using light-sheet microscopy. Image processing was performed using a custom, in-house developed pipeline employing shared-memory parallelism, targeted for fast processing of large 3D image datasets."
     url="#"
     badge="Under review — Cell"
@@ -27,7 +28,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Brainwide Spatial Distribution of Microglia (Netoglitazone)"
-    img="/Microglia_hr.jpg"
+    img={`${base}/Microglia_hr.jpg`}
     desc="Quantification of brainwide, region-specific effects of the antidiabetic drug netoglitazone in Alzheimer's mouse models, using quantitative whole-brain 3D histochemistry (Q3D) and light-sheet microscopy. Whole-brain 3D stacks processed with a custom pipeline for automated microglia segmentation, registration to the Allen Brain Atlas, and statistical mapping."
     url="https://doi.org/10.1371/journal.pone.0309489"
     badge="Published — PLoS One 2025"
@@ -39,7 +40,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Stress-Free State & Viscoelastic Properties of Red Blood Cells"
-    img="/rbc-sfs_hr.jpg"
+    img={`${base}/rbc-sfs_hr.jpg`}
     desc="Introduced a transferable RBC model (t-RBC), and calibrated its viscoelastic properties as well as the stress-free state for the first time, using Bayesian inference. The t-RBC model reproduces a wide range of experimental data across multiple flow configurations without further calibration of its parameters."
     url="https://www.sciencedirect.com/science/article/pii/S0006349523001728"
     badge="Published — Biophysical Journal 2023"
@@ -49,7 +50,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Hierarchical Bayesian UQ for Red Blood Cell Models"
-    img="/rbc-sfs_hr.jpg"
+    img={`${base}/rbc-sfs_hr.jpg`}
     desc="Developed a hierarchical Bayesian framework for uncertainty quantification of a red blood cell membrane model, enabling systematic calibration and prediction of cell dynamics under different flow conditions."
     url="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062"
     badge="Published — Phys. Rev. Applied 2021"
@@ -61,7 +62,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Korali — Large-Scale Bayesian UQ Framework"
-    img="/korali_hr.jpg"
+    img={`${base}/korali_hr.jpg`}
     desc="An open-source framework for large-scale Bayesian uncertainty quantification and stochastic optimization. The framework relies on non-intrusive sampling of complex multiphysics models with a distributed sampling engine featuring novel fault tolerance and load balancing for massively-parallel architectures."
     url="https://www.sciencedirect.com/science/article/pii/S0045782521005752"
     badge="Published — CMAME 2022"
@@ -71,7 +72,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Load Balancing in Large Scale Bayesian Inference"
-    img="/korali_hr.jpg"
+    img={`${base}/korali_hr.jpg`}
     desc="Developed load balancing strategies for large-scale Bayesian inference on massively-parallel architectures, demonstrated across molecular dynamics, blood microfluidics, and pipe flow optimization applications."
     url="https://dl.acm.org/doi/abs/10.1145/3394277.3401849"
     badge="Published — PASC 2020"
