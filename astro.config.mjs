@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://aecon.github.io',
   base: '/athenaeconomides.com',
-  integrations: [mdx(), sitemap(), tailwind()]
+  integrations: [mdx(), tailwind()]
 });
 // export default defineConfig({
 //   site: 'https://athenaeconomides.com',
