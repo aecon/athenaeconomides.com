@@ -30,3 +30,5 @@ graphics/
 # migration files (not part of live site)
 astrofy-migration/
 astrofy-migration.tar.gz
+
+headshots/
