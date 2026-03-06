@@ -1,13 +1,14 @@
 ---
 import SideBarMenu from "./SideBarMenu.astro";
 import SideBarFooter from "./SideBarFooter.astro";
+const base = import.meta.env.BASE_URL;
 ---
 
 <div class="drawer-side z-40">
   <label for="my-drawer" class="drawer-overlay"></label>
   <div class="menu bg-base-200 text-base-content min-h-full w-80 p-4 gap-3">
     <div class="flex flex-col items-center gap-2 mt-4 mb-4">
-      <a href="/">
+      <a href={`${base}/`}>
         <!-- Replace /profile.webp with your headshot -->
         <img
           class="mask mask-squircle w-32"
