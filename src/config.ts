@@ -2,6 +2,6 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Athena Economides';
-export const SITE_DESCRIPTION = 'Computational Science & Engineering';
+export const SITE_DESCRIPTION = 'Scientist specializing in Computational Science & Engineering for biomedical research';
 export const GENERATE_SLUG_FROM_TITLE = true
 export const TRANSITION_API = true
