@@ -1,0 +1,32 @@
+# build output
+dist/
+.cache
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lockfiles (using npm, so ignore pnpm/yarn)
+pnpm-lock.yaml
+yarn.lock
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# Astro
+.astro/
+
+# source graphics (too large for GitHub)
+graphics/
+
+# migration files (not part of live site)
+astrofy-migration/
+astrofy-migration.tar.gz
