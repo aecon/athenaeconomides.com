@@ -5,6 +5,11 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://athenaeconomides.com',
+  site: 'https://aecon.github.io',
+  base: '/athenaeconomides.com',
   integrations: [mdx(), sitemap(), tailwind()]
 });
+// export default defineConfig({
+//   site: 'https://athenaeconomides.com',
+//   integrations: [mdx(), sitemap(), tailwind()]
+// });
