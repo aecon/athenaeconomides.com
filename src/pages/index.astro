@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout sideBarActiveItemID="home">
@@ -27,7 +28,7 @@ I simulated the flow of blood with sub-cellular resolution using mesoscopic, par
 I learned about fluid-structure interactions and modeled the interactions between erythrocytes, the surrounding fluid, and walls of microfluidics devices.
 To save computational resources, I trained ML-based surrogate models to emulate the computationally expensive high-fidelity blood flow simulations.
         <br><br>
-        A few highlights are showcased below — you can explore the full set on the <a href="/projects" class="link link-primary">Projects</a> page.
+        A few highlights are showcased below — you can explore the full set on the <a href={`${base}/projects`} class="link link-primary">Projects</a> page.
       </text>
     </div>
     <div class="mt-8">
@@ -42,32 +43,32 @@ To save computational resources, I trained ML-based surrogate models to emulate 
 
   <HorizontalCard
     title="Neuronal Cell Segmentation in Whole Mouse Brains"
-    img="/athena-economides.com/avg_all_groups_hr.jpg"
+    img={`${base}/avg_all_groups_hr.jpg`}
     desc="An international collaboration developing a protein-based delivery system to the CNS. 3D whole mouse-brain scans processed with light-sheet microscopy using a custom, in-house pipeline with shared-memory parallelism for fast processing of large 3D datasets."
-    url="/projects"
+    url={`${base}/projects`}
     badge="Under review — Cell"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Microglia Segmentation in Drug Efficacy Studies"
-    img="/athena-economides.com/Microglia_hr.jpg"
+    img={`${base}/Microglia_hr.jpg`}
     desc="A novel image processing pipeline for quantifying drug efficacy at the sub-cellular level through object segmentation of stained neural cells in 3D whole mouse-brain scans."
-    url="/projects"
+    url={`${base}/projects`}
     badge="In preparation"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Transferable Red Blood Cell Model with Bayesian Inference"
-    img="/athena-economides.com/rbc-sfs_hr.jpg"
+    img={`${base}/rbc-sfs_hr.jpg`}
     desc="Introduced a transferable RBC model (t-RBC) with viscoelastic properties and stress-free state calibrated using Bayesian inference for the first time."
-    url="/projects"
+    url={`${base}/projects`}
     badge="Published"
   />
 
   <div class="divider my-0"></div>
 
   <div class="mt-8">
-    <a class="btn btn-outline" href="/projects">View all projects →</a>
+    <a class="btn btn-outline" href={`${base}/projects`}>View all projects →</a>
   </div>
 
   <div class="mt-16">
@@ -93,6 +94,6 @@ To save computational resources, I trained ML-based surrogate models to emulate 
   <div class="divider my-0"></div>
 
   <div class="mt-8">
-    <a class="btn btn-outline" href="/software">View all tools →</a>
+    <a class="btn btn-outline" href={`${base}/software`}>View all tools →</a>
   </div>
 </BaseLayout>
