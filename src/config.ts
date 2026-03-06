@@ -4,3 +4,4 @@
 export const SITE_TITLE = 'Athena Economides';
 export const SITE_DESCRIPTION = 'Personal website';
 export const GENERATE_SLUG_FROM_TITLE = true
+export const TRANSITION_API = true
