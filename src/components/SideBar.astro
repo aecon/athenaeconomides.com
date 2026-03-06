@@ -1,0 +1,33 @@
+---
+import SideBarMenu from "./SideBarMenu.astro";
+import SideBarFooter from "./SideBarFooter.astro";
+---
+
+<div class="drawer-side z-40">
+  <label for="my-drawer" class="drawer-overlay"></label>
+  <div class="menu bg-base-200 text-base-content min-h-full w-80 p-4 gap-3">
+    <div class="flex flex-col items-center gap-2 mt-4 mb-4">
+      <a href="/">
+        <!-- Replace /profile.webp with your headshot -->
+        <img
+          class="mask mask-squircle w-32"
+          src="/profile.jpg"
+          alt="Athena Economides"
+        />
+      </a>
+      <div class="text-center">
+        <h2 class="font-bold text-lg">Athena Economides</h2>
+        <p class="text-sm text-base-content/70">Computational Science & Engineering</p>
+        <p class="text-xs text-base-content/50 mt-1">
+          Dr. sc. ETH Zurich
+        </p>
+      </div>
+    </div>
+    <ul>
+      <SideBarMenu />
+    </ul>
+    <div class="mt-auto">
+      <SideBarFooter />
+    </div>
+  </div>
+</div>

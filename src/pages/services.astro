@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Services" sideBarActiveItemID="services">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Consulting &amp; Data Science Services</div>
+    <div class="text-lg mb-8 text-base-content/70">
+      If you have biological data that's too <b>large</b> or too <b>complex</b> to analyze with off-the-shelf tools - that's exactly the kind of problem I find interesting.
+      I offer consulting and applied data science services for academic labs, biotech companies, and research organizations.
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+    <div class="card bg-base-100 shadow-md border border-base-300">
+      <div class="card-body">
+        <h2 class="card-title text-xl">Biomedical Image Analysis</h2>
+        <p class="text-base-content/70">
+          Custom pipelines for 2D and 3D biological image data — including cell segmentation, 
+          object detection, and quantitative morphological analysis. 
+          Specializing in light-sheet microscopy, high-content screening, and whole-brain imaging datasets.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="badge badge-outline">3D Segmentation</span>
+          <span class="badge badge-outline">Light-sheet</span>
+          <span class="badge badge-outline">HCS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 shadow-md border border-base-300">
+      <div class="card-body">
+        <h2 class="card-title text-xl">Deep Learning for Biology</h2>
+        <p class="text-base-content/70">
+          Training, fine-tuning, and deploying deep learning models for biological applications —
+          including cell detection (StarDist, Cellpose), classification, 
+          and custom architectures tailored to your specific imaging modality and research questions.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="badge badge-outline">StarDist</span>
+          <span class="badge badge-outline">Cellpose</span>
+          <span class="badge badge-outline">PyTorch</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 shadow-md border border-base-300">
+      <div class="card-body">
+        <h2 class="card-title text-xl">Statistical Analysis &amp; Bayesian Methods</h2>
+        <p class="text-base-content/70">
+          Bayesian uncertainty quantification, parameter inference, and statistical modeling 
+          for complex scientific datasets. From experimental design to publication-ready analysis 
+          and visualization.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="badge badge-outline">Bayesian UQ</span>
+          <span class="badge badge-outline">Parameter inference</span>
+          <span class="badge badge-outline">Statistical modeling</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 shadow-md border border-base-300">
+      <div class="card-body">
+        <h2 class="card-title text-xl">HPC &amp; Pipeline Development</h2>
+        <p class="text-base-content/70">
+          Optimizing computational workflows for large-scale data processing on HPC clusters. 
+          Parallelization strategies (MPI, OpenMP), pipeline architecture, 
+          and performance engineering for scientific computing workloads.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="badge badge-outline">HPC</span>
+          <span class="badge badge-outline">MPI / OpenMP</span>
+          <span class="badge badge-outline">Pipeline design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="mt-8 mb-4">
+    <div class="text-2xl w-full font-bold mb-5">How I Work</div>
+    <div class="text-base-content/70 mb-6">
+      I typically engage in one of the following formats, depending on the scope and needs of your project:
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+    <div class="card bg-base-200/50 border border-base-300">
+      <div class="card-body">
+        <h3 class="card-title text-lg">Advisory</h3>
+        <p class="text-sm text-base-content/70">
+          Short-term consultation on methodology, pipeline design, or analysis strategy. 
+          Ideal for teams that need expert guidance but will execute themselves.
+        </p>
+      </div>
+    </div>
+    <div class="card bg-base-200/50 border border-base-300">
+      <div class="card-body">
+        <h3 class="card-title text-lg">Project-based</h3>
+        <p class="text-sm text-base-content/70">
+          End-to-end development of a custom analysis pipeline or tool, 
+          from requirements to delivery and documentation. 
+          Typical engagements run 1–4 months.
+        </p>
+      </div>
+    </div>
+    <div class="card bg-base-200/50 border border-base-300">
+      <div class="card-body">
+        <h3 class="card-title text-lg">Collaboration</h3>
+        <p class="text-sm text-base-content/70">
+          Embedded collaboration as a computational partner on a research project, 
+          contributing to analysis, methods development, and co-authorship.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="mt-8 mb-10 text-center">
+    <div class="text-lg mb-4 text-base-content/70">
+      Interested in working together? I'd love to hear about your project.
+    </div>
+    <a class="btn btn-primary" href="mailto:athena.economides@uzh.ch">
+      Get in touch →
+    </a>
+  </div>
+</BaseLayout>

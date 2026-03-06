@@ -1,0 +1,168 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Curriculum Vitae</div>
+  </div>
+
+  <div class="mb-10">
+    <div class="text-2xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Postdoctoral Researcher"
+      subtitle="March 2023 — Present · University of Zurich"
+    >
+      Institute of Neuropathology (Prof. Adriano Aguzzi) · Department of Quantitative Biomedicine (Prof. Magdalini Polymenidou).
+      Developing computational pipelines for 3D whole-brain image analysis using light-sheet microscopy. 
+      Building deep learning and Bayesian methods for neuronal cell detection and drug efficacy quantification.
+    </TimeLineElement>
+    <TimeLineElement
+      title="External Lecturer"
+      subtitle="January 2023 — Present · ETH Zurich"
+    >
+      Course: High Performance Computing for Science and Engineering II (HPCSE II).
+      Department of Mechanical and Process Engineering (D-MAVT).
+    </TimeLineElement>
+    <TimeLineElement
+      title="Teaching Fellow & Postdoctoral Associate"
+      subtitle="January 2021 — December 2022 · Harvard University"
+    >
+      Course: Introduction to Fluid Mechanics and Transport Processes (ES123).
+      John A. Paulson School of Engineering and Applied Sciences.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Postdoctoral Researcher"
+      subtitle="November 2020 — December 2022 · ETH Zurich & University Hospital of Zurich"
+    >
+      Computational Science and Engineering Lab (Prof. Petros Koumoutsakos) · Institute of Neuropathology (Prof. Adriano Aguzzi).
+      Developed image processing pipelines for 3D mouse brain data and contributed to the Korali Bayesian UQ framework.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Visiting PhD Student"
+      subtitle="March 2017 — June 2017 · Massachusetts General Hospital"
+    >
+      Center for Engineering in Medicine (Prof. Mehmet Toner).
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Assistant (PhD Student)"
+      subtitle="October 2014 — October 2020 · ETH Zurich"
+    >
+      Computational Science and Engineering Lab (Prof. Petros Koumoutsakos).
+      Developed Bayesian uncertainty quantification methods for red blood cell models 
+      and contributed to HPC frameworks for large-scale scientific computing.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Ph.D., Computational Science & Engineering"
+      subtitle="2014 — 2020 · ETH Zürich, D-MAVT"
+    />
+    <TimeLineElement
+      title="M.Sc., Mechanical Engineering"
+      subtitle="2013 — 2015 · University of Cyprus"
+    />
+    <TimeLineElement
+      title="B.Sc., Mechanical Engineering"
+      subtitle="2009 — 2013 · University of Cyprus"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Teaching</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="External Lecturer — HPCSE II"
+      subtitle="Spring 2023 · ETH Zurich"
+    />
+    <TimeLineElement
+      title="Head TA — High Performance Computing for Science & Engineering I"
+      subtitle="Fall 2022 · ETH Zurich"
+    />
+    <TimeLineElement
+      title="Teaching Fellow — ES123: Intro to Fluid Mechanics & Transport Processes"
+      subtitle="Spring 2022 · Harvard University"
+    />
+    <TimeLineElement
+      title="Head TA — High Performance Computing for Science & Engineering II"
+      subtitle="Spring 2021 · ETH Zurich"
+    />
+    <TimeLineElement
+      title="TA — High Performance Computing for Science & Engineering I"
+      subtitle="2017–2019 · ETH Zurich"
+    />
+    <TimeLineElement
+      title="TA — Computational Methods for Engineering Applications"
+      subtitle="2015–2016 · ETH Zurich"
+    />
+    <TimeLineElement
+      title="TA — Engineering Tool III: Object-Oriented Programming with C++"
+      subtitle="Spring 2015 · ETH Zurich"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Selected Publications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <strong>Bracha, S., et al.</strong> "Engineering Toxoplasma gondii secretion systems for intracellular delivery of multiple large therapeutic proteins to neurons." 
+      <em>Nature Microbiology</em> (2024). 
+      <a href="https://doi.org/10.1038/s41564-024-01750-6" target="_blank" class="link link-primary">DOI</a>
+    </li>
+    <li>
+      <strong>Catto, F., et al.</strong> "Quantitative 3D histochemistry reveals region-specific amyloid-β reduction by the antidiabetic drug netoglitazone." 
+      <em>PLoS One</em> 20.5 (2025). 
+      <a href="https://doi.org/10.1371/journal.pone.0309489" target="_blank" class="link link-primary">DOI</a>
+    </li>
+    <li>
+      <strong>Amoudruz, L., Economides, A., Arampatzis, G. and Koumoutsakos, P.</strong> "The stress-free state of human erythrocytes: Data-driven inference of a transferable RBC model." 
+      <em>Biophysical Journal</em> (2023). 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0006349523001728" target="_blank" class="link link-primary">DOI</a>
+    </li>
+    <li>
+      <strong>Martin, S.M., Wälchli, D., Arampatzis, G., Economides, A.E., et al.</strong> "Korali: Efficient and scalable software framework for Bayesian uncertainty quantification and stochastic optimization." 
+      <em>Computer Methods in Applied Mechanics and Engineering</em> 389 (2022). 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0045782521005752" target="_blank" class="link link-primary">DOI</a>
+    </li>
+    <li>
+      <strong>Economides, A., Arampatzis, G., et al.</strong> "Hierarchical Bayesian uncertainty quantification for a model of the red blood cell." 
+      <em>Physical Review Applied</em> 15(3) (2021). 
+      <a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062" target="_blank" class="link link-primary">DOI</a>
+    </li>
+    <li>
+      <strong>Wälchli, D., Martin, S.M., Economides, A., et al.</strong> "Load balancing in large scale Bayesian inference." 
+      <em>Proceedings of the Platform for Advanced Scientific Computing Conference</em> (2020). 
+      <a href="https://dl.acm.org/doi/abs/10.1145/3394277.3401849" target="_blank" class="link link-primary">DOI</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-2 columns-2 mx-6 mb-10">
+    <li>Python, C/C++</li>
+    <li>Deep Learning (StarDist, Cellpose, PyTorch)</li>
+    <li>3D Image Processing</li>
+    <li>Light-Sheet Microscopy</li>
+    <li>Bayesian Inference & UQ</li>
+    <li>High Performance Computing (MPI, OpenMP)</li>
+    <li>Scientific Computing</li>
+    <li>Data Visualization</li>
+    <li>Git, Linux, HPC Clusters</li>
+    <li>MATLAB, R</li>
+  </ul>
+</BaseLayout>

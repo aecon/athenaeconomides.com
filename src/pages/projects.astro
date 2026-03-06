@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Research Projects" sideBarActiveItemID="projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Research Projects</div>
+    <div class="text-lg mb-8 text-base-content/70">
+      Most of my work starts with a deceptively simple question - why, how many, how much, or where exactly?
+      Answering it usually requires building something new: a pipeline, a model, a framework.
+      Here are some of the problems I've enjoyed solving.
+    </div>
+  </div>
+
+  <div class="text-2xl w-full font-bold mb-2">Neuroscience &amp; Brain Imaging</div>
+
+  <HorizontalCard
+    title="Neuronal Cell Segmentation in Whole Mouse Brains"
+    img="/avg_all_groups_hr.jpg"
+    desc="An international collaboration aiming to develop a new protein-based delivery system to the central nervous system. 3D images of whole mouse-brain scans were used to detect the bio-distribution of the delivery system, using light-sheet microscopy. Image processing was performed using a custom, in-house developed pipeline employing shared-memory parallelism, targeted for fast processing of large 3D image datasets."
+    url="#"
+    badge="Under review — Cell"
+    tags={['Light-sheet microscopy', '3D segmentation', 'HPC']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Microglia Segmentation in Drug Efficacy Studies"
+    img="/Microglia_hr.jpg"
+    desc="A study for the efficacy of different drugs in neurodegenerative diseases. A novel image processing pipeline was developed to quantify drug efficacy on the sub-cellular level, through object segmentation of stained neural cells in 3D whole mouse-brain scans."
+    url="#"
+    badge="In preparation"
+    tags={['Neurodegeneration', 'Drug efficacy', '3D image analysis']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Brainwide Spatial Distribution of Microglia (Netoglitazone)"
+    img="/img3d_brains.jpg"
+    desc="Quantification of brainwide, region-specific effects of the antidiabetic drug netoglitazone in Alzheimer's mouse models, using quantitative whole-brain 3D histochemistry (Q3D) and light-sheet microscopy. Whole-brain 3D stacks processed with a custom pipeline for automated microglia segmentation, registration to the Allen Brain Atlas, and statistical mapping."
+    url="https://doi.org/10.1371/journal.pone.0309489"
+    badge="Published — PLoS One 2025"
+    tags={['Alzheimer', 'Allen Brain Atlas', 'img3D']}
+  />
+  <div class="divider my-0"></div>
+
+  <div class="text-2xl w-full font-bold mb-2 mt-10">Computational Biophysics</div>
+
+  <HorizontalCard
+    title="Stress-Free State & Viscoelastic Properties of Red Blood Cells"
+    img="/rbc-sfs_hr.jpg"
+    desc="Introduced a transferable RBC model (t-RBC), and calibrated its viscoelastic properties as well as the stress-free state for the first time, using Bayesian inference. The t-RBC model reproduces a wide range of experimental data across multiple flow configurations without further calibration of its parameters."
+    url="https://www.sciencedirect.com/science/article/pii/S0006349523001728"
+    badge="Published — Biophysical Journal 2023"
+    tags={['Bayesian inference', 'Red blood cells', 'Uncertainty quantification']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Hierarchical Bayesian UQ for Red Blood Cell Models"
+    img="/rbc-sfs_hr.jpg"
+    desc="Developed a hierarchical Bayesian framework for uncertainty quantification of a red blood cell membrane model, enabling systematic calibration and prediction of cell dynamics under different flow conditions."
+    url="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062"
+    badge="Published — Phys. Rev. Applied 2021"
+    tags={['Bayesian UQ', 'Hierarchical models', 'Membrane mechanics']}
+  />
+  <div class="divider my-0"></div>
+
+  <div class="text-2xl w-full font-bold mb-2 mt-10">HPC &amp; Frameworks</div>
+
+  <HorizontalCard
+    title="Korali — Large-Scale Bayesian UQ Framework"
+    img="/korali_hr.jpg"
+    desc="An open-source framework for large-scale Bayesian uncertainty quantification and stochastic optimization. The framework relies on non-intrusive sampling of complex multiphysics models with a distributed sampling engine featuring novel fault tolerance and load balancing for massively-parallel architectures."
+    url="https://www.sciencedirect.com/science/article/pii/S0045782521005752"
+    badge="Published — CMAME 2022"
+    tags={['Open-source', 'HPC', 'Bayesian optimization']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Load Balancing in Large Scale Bayesian Inference"
+    img="/korali_hr.jpg"
+    desc="Developed load balancing strategies for large-scale Bayesian inference on massively-parallel architectures, demonstrated across molecular dynamics, blood microfluidics, and pipe flow optimization applications."
+    url="https://dl.acm.org/doi/abs/10.1145/3394277.3401849"
+    badge="Published — PASC 2020"
+    tags={['Load balancing', 'Distributed computing', 'MPI']}
+  />
+</BaseLayout>
