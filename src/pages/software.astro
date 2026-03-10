@@ -15,16 +15,6 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div class="text-2xl w-full font-bold mb-2">General-Purpose Packages</div>
 
   <HorizontalCard
-    title="img3D"
-    desc="A Python/C package for image processing of large, 3D (volumetric) image data. Designed for storing NumPy arrays in raw file format, handling NRRD metadata used in bio-imaging, and performing computations on image data with optional OpenMP parallelism. Used in multiple publications for whole-brain light-sheet microscopy analysis."
-    url="https://github.com/aecon/img3D"
-    target="_blank"
-    badge="Python · C"
-    tags={['3D imaging', 'Light-sheet microscopy', 'NumPy', 'OpenMP']}
-  />
-  <div class="divider my-0"></div>
-
-  <HorizontalCard
     title="AggreQuant"
     desc="Automated analysis pipeline for High Content Screens. Processes 384-well plates with 9 fields per well (10,368 images per plate) to quantify aggregate-positive cells. Performs illumination correction, deep learning segmentation (StarDist for nuclei, Cellpose for cells), and co-localization analysis to characterize aggregate inclusions in cells."
     url="https://github.com/aecon/AggreQuant"
@@ -41,6 +31,16 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     target="_blank"
     badge="Python"
     tags={['Visualization', 'HCS', 'Microscopy', 'Quality control']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="img3D"
+    desc="A Python/C package for image processing of large, 3D (volumetric) image data. Designed for storing NumPy arrays in raw file format, handling NRRD metadata used in bio-imaging, and performing computations on image data with optional OpenMP parallelism. Used in multiple publications for whole-brain light-sheet microscopy analysis."
+    url="https://github.com/aecon/img3D"
+    target="_blank"
+    badge="Python · C"
+    tags={['3D imaging', 'Light-sheet microscopy', 'NumPy', 'OpenMP']}
   />
   <div class="divider my-0"></div>
 
