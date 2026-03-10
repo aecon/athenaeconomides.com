@@ -12,6 +12,8 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     </div>
   </div>
 
+  <div class="text-2xl w-full font-bold mb-2">General-Purpose Packages</div>
+
   <HorizontalCard
     title="img3D"
     desc="A Python/C package for image processing of large, 3D (volumetric) image data. Designed for storing NumPy arrays in raw file format, handling NRRD metadata used in bio-imaging, and performing computations on image data with optional OpenMP parallelism. Used in multiple publications for whole-brain light-sheet microscopy analysis."
@@ -42,17 +44,6 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   />
   <div class="divider my-0"></div>
 
-
-  <HorizontalCard
-    title="3D-microglia-netoglitazone"
-    desc="Image processing tools for the segmentation of microglia cells in 3D mouse brain data, developed for the netoglitazone drug efficacy study."
-    url="https://github.com/aecon/3D-microglia-netoglitazone"
-    target="_blank"
-    badge="Python"
-    tags={['Microglia', '3D segmentation']}
-  />
-  <div class="divider my-0"></div>
-
   <HorizontalCard
     title="prionBrain3D"
     desc="Analysis tools for prion disease research using 3D whole-brain imaging data."
@@ -61,7 +52,28 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     badge="Python"
     tags={['Prion disease', '3D brain analysis']}
   />
+  <div class="divider my-0"></div>
 
+  <div class="text-2xl w-full font-bold mb-2 mt-10">Publication-Specific Pipelines</div>
+
+  <HorizontalCard
+    title="3D-microglia-netoglitazone"
+    desc="Pipeline for quantifying brainwide, region-specific effects of the antidiabetic drug netoglitazone in Alzheimer's mouse models. Processes whole-brain 3D image stacks for automated microglia segmentation, surface-artifact removal, voxelization/smoothing, and registration to the Allen Brain Atlas."
+    url="https://github.com/aecon/3D-microglia-netoglitazone"
+    target="_blank"
+    badge="Python"
+    tags={['Microglia', '3D segmentation', 'Allen Brain Atlas']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="toxoplasma3D"
+    desc="Pipeline for quantifying and mapping the brainwide spatial distribution of proteins delivered by engineered Toxoplasma gondii secretion systems. Detects ZsGreen+ cell volume from whole-brain 3D light-sheet microscopy (mesoSPIM) images, with artifact filtering and registration to the Allen Brain Atlas."
+    url="https://github.com/aecon/toxoplasma3D"
+    target="_blank"
+    badge="Python"
+    tags={['Neuroscience', '3D segmentation', 'Allen Brain Atlas']}
+  />
   <div class="divider my-0"></div>
 
   <div class="mt-8 mb-8 text-center">
