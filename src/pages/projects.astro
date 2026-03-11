@@ -16,16 +16,6 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div class="text-2xl w-full font-bold mb-2">Neuroscience &amp; Brain Imaging</div>
 
   <HorizontalCard
-    title="Neuronal Cell Segmentation in Whole Mouse Brains"
-    img="/avg_all_groups_hr.jpg"
-    desc="An international collaboration developing a novel protein-based delivery system to the central nervous system using engineered Toxoplasma gondii secretion systems. 3D images of whole mouse-brain scans were used to quantify and map the brainwide spatial distribution of the delivered proteins, using light-sheet microscopy (mesoSPIM). Image processing was performed using a custom, in-house developed pipeline employing shared-memory parallelism, targeted for fast processing of large 3D image datasets."
-    url="https://doi.org/10.1038/s41564-024-01750-6"
-    badge="Nature Microbiology 2024"
-    tags={['Light-sheet microscopy', '3D segmentation', 'HPC']}
-  />
-  <div class="divider my-0"></div>
-
-  <HorizontalCard
     title="Plaque and Microglia Quantification in Prime-Edited Alzheimer's Brains"
     img="/sleepbrains.jpg"
     desc="Quantification of plaques and microglia in whole murine brains for a study on prime editing of the β1 adrenoceptor to restore physiological REM sleep in an Alzheimer's disease mouse model. Machine learning-based instance segmentation (ilastik) combined with deformable registration to the Allen Brain Atlas for region-specific analysis of pathological markers."
@@ -45,7 +35,37 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   />
   <div class="divider my-0"></div>
 
+  <HorizontalCard
+    title="Neuronal Cell Segmentation in Whole Mouse Brains"
+    img="/avg_all_groups_hr.jpg"
+    desc="An international collaboration developing a novel protein-based delivery system to the central nervous system using engineered Toxoplasma gondii secretion systems. 3D images of whole mouse-brain scans were used to quantify and map the brainwide spatial distribution of the delivered proteins, using light-sheet microscopy (mesoSPIM). Image processing was performed using a custom, in-house developed pipeline employing shared-memory parallelism, targeted for fast processing of large 3D image datasets."
+    url="https://doi.org/10.1038/s41564-024-01750-6"
+    badge="Nature Microbiology 2024"
+    tags={['Light-sheet microscopy', '3D segmentation', 'HPC']}
+  />
+  <div class="divider my-0"></div>
+
   <div class="text-2xl w-full font-bold mb-2 mt-10">Computational Biophysics</div>
+
+  <HorizontalCard
+    title="Inertial Focusing of Spherical Particles in Microfluidic Channels"
+    img="/inertial_focusing.png"
+    desc="Large-scale simulations with dissipative particle dynamics revealing that particle rotation significantly affects inertial focusing positions in microfluidic channels. Demonstrated that rotation-induced lateral lift force scales linearly with rotation magnitude, and proposed a phenomenological model extending existing theories. Findings suggest new designs for micro-particle and cell sorting in inertia-based microfluidics devices."
+    url="https://doi.org/10.1103/PhysRevFluids.10.054202"
+    badge="Phys. Rev. Fluids 2025"
+    tags={['Microfluidics', 'Inertial focusing', 'Dissipative particle dynamics']}
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Optimal Red Blood Cell Volume for Oxygen Transport in Arterioles"
+    img="/optimal_rbc_shape.png"
+    desc="Computational study demonstrating that red blood cells with volumes found in vivo are most efficient for advective oxygen transport through arterioles. Showed that optimal efficiency stems from cell-free layer thickness — undersized cells deform excessively while oversized cells create diffuse movement patterns, both reducing transport effectiveness."
+    url="https://doi.org/10.1016/j.bpj.2024.04.015"
+    badge="Biophysical Journal 2024"
+    tags={['Red blood cells', 'Oxygen transport', 'Microfluidics']}
+  />
+  <div class="divider my-0"></div>
 
   <HorizontalCard
     title="Stress-Free State & Viscoelastic Properties of Red Blood Cells"
