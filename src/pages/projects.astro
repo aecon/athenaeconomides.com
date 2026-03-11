@@ -21,7 +21,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     desc="Quantification of plaques and microglia in whole murine brains for a study on prime editing of the β1 adrenoceptor to restore physiological REM sleep in an Alzheimer's disease mouse model. Machine learning-based instance segmentation (ilastik) combined with deformable registration to the Allen Brain Atlas for region-specific analysis of pathological markers."
     url="https://www.nature.com/articles/s41467-025-65964-w"
     badge="Nature Communications 2025"
-    tags={['Alzheimer\'s disease', 'Prime editing', 'ilastik', 'Allen Brain Atlas']}
+    tags={['3D image analysis', 'Alzheimer\'s disease', 'ilastik', 'Machine Learning']}
   />
   <div class="divider my-0"></div>
 
@@ -31,7 +31,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     desc="Quantification of brainwide, region-specific effects of the antidiabetic drug netoglitazone in Alzheimer's mouse models, using quantitative whole-brain 3D histochemistry (Q3D) and light-sheet microscopy. Whole-brain 3D stacks processed with a custom pipeline for automated microglia segmentation, registration to the Allen Brain Atlas, and statistical mapping."
     url="https://doi.org/10.1371/journal.pone.0309489"
     badge="PLoS One 2025"
-    tags={['Neurodegeneration', 'Drug efficacy', '3D image analysis']}
+    tags={['3D image analysis', 'Drug efficacy', 'Machine Learning', 'Neurodegeneration']}
   />
   <div class="divider my-0"></div>
 
@@ -41,7 +41,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     desc="An international collaboration developing a novel protein-based delivery system to the central nervous system using engineered Toxoplasma gondii secretion systems. 3D images of whole mouse-brain scans were used to quantify and map the brainwide spatial distribution of the delivered proteins, using light-sheet microscopy (mesoSPIM). Image processing was performed using a custom, in-house developed pipeline employing shared-memory parallelism, targeted for fast processing of large 3D image datasets."
     url="https://doi.org/10.1038/s41564-024-01750-6"
     badge="Nature Microbiology 2024"
-    tags={['Light-sheet microscopy', '3D segmentation', 'HPC']}
+    tags={['3D segmentation', 'HPC', 'Light-sheet microscopy', 'Machine Learning']}
   />
   <div class="divider my-0"></div>
 
@@ -50,40 +50,40 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <HorizontalCard
     title="Inertial Focusing of Spherical Particles in Microfluidic Channels"
     img="/inertial_focusing.png"
-    desc="Large-scale simulations with dissipative particle dynamics revealing that particle rotation significantly affects inertial focusing positions in microfluidic channels. Demonstrated that rotation-induced lateral lift force scales linearly with rotation magnitude, and proposed a phenomenological model extending existing theories. Findings suggest new designs for micro-particle and cell sorting in inertia-based microfluidics devices."
+    desc="Does particle rotation matter in microfluidic cell sorting? Large-scale simulations reveal that freely rotating particles focus at drastically different positions than non-rotating ones — overturning the assumption that rotation-induced lift is negligible. A new phenomenological model captures this effect, opening the door to improved designs for inertia-based microfluidic devices."
     url="https://doi.org/10.1103/PhysRevFluids.10.054202"
     badge="Phys. Rev. Fluids 2025"
-    tags={['Microfluidics', 'Inertial focusing', 'Dissipative particle dynamics']}
+    tags={['Dissipative particle dynamics', 'Inertial focusing', 'Microfluidics']}
   />
   <div class="divider my-0"></div>
 
   <HorizontalCard
     title="Optimal Red Blood Cell Volume for Oxygen Transport in Arterioles"
     img="/optimal_rbc_shape.png"
-    desc="Computational study demonstrating that red blood cells with volumes found in vivo are most efficient for advective oxygen transport through arterioles. Showed that optimal efficiency stems from cell-free layer thickness — undersized cells deform excessively while oversized cells create diffuse movement patterns, both reducing transport effectiveness."
+    desc="Is the volume of a red blood cell optimized by nature? High-fidelity simulations reveal that RBCs with healthy volumes maximize the cell-free layer thickness in arterioles — the region of greatest flow resistance — making them optimally efficient for oxygen transport. Too small and they deform and fold; too large and they collide into diffuse trajectories. Nature, it turns out, got the volume just right."
     url="https://doi.org/10.1016/j.bpj.2024.04.015"
     badge="Biophysical Journal 2024"
-    tags={['Red blood cells', 'Oxygen transport', 'Microfluidics']}
+    tags={['Microfluidics', 'Oxygen transport', 'Red blood cells']}
   />
   <div class="divider my-0"></div>
 
   <HorizontalCard
     title="Stress-Free State & Viscoelastic Properties of Red Blood Cells"
     img="/rbc-sfs_hr.jpg"
-    desc="Introduced a transferable RBC model (t-RBC), and calibrated its viscoelastic properties as well as the stress-free state for the first time, using Bayesian inference. The t-RBC model reproduces a wide range of experimental data across multiple flow configurations without further calibration of its parameters."
+    desc="Can three simple experiments capture everything about a red blood cell? We show that resting shape, optical tweezers stretching, and relaxation dynamics are sufficient to infer all viscoelastic properties and the stress-free state via hierarchical Bayesian inference — yielding a transferable model that predicts cell dynamics in unseen shear flow conditions with unprecedented accuracy."
     url="https://www.sciencedirect.com/science/article/pii/S0006349523001728"
     badge="Biophysical Journal 2023"
-    tags={['Bayesian inference', 'Red blood cells', 'Uncertainty quantification']}
+    tags={['Bayesian inference', 'Hierarchical models', 'Membrane mechanics']}
   />
   <div class="divider my-0"></div>
 
   <HorizontalCard
     title="Hierarchical Bayesian UQ for Red Blood Cell Models"
     img="/hb-rbc.png"
-    desc="Developed a hierarchical Bayesian framework for uncertainty quantification of a red blood cell membrane model, enabling systematic calibration and prediction of cell dynamics under different flow conditions."
+    desc="Hierarchical Bayesian inference for calibrating a red blood cell model using data from optical tweezers stretching and tank treading in shear flows. Demonstrated that hierarchical models outperform single-level Bayesian calibration at predicting unseen data, advancing the development of robust, transferable RBC models."
     url="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.034062"
     badge="Phys. Rev. Applied 2021"
-    tags={['Bayesian UQ', 'Hierarchical models', 'Membrane mechanics']}
+    tags={['Bayesian inference', 'Hierarchical models', 'Membrane mechanics']}
   />
   <div class="divider my-0"></div>
 
@@ -95,16 +95,16 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     desc="An open-source framework for large-scale Bayesian uncertainty quantification and stochastic optimization. The framework relies on non-intrusive sampling of complex multiphysics models with a distributed sampling engine featuring novel fault tolerance and load balancing for massively-parallel architectures."
     url="https://www.sciencedirect.com/science/article/pii/S0045782521005752"
     badge="CMAME 2022"
-    tags={['Open-source', 'HPC', 'Bayesian optimization']}
+    tags={['Bayesian inference', 'HPC', 'Open-source', 'Stochastic optimization']}
   />
   <div class="divider my-0"></div>
 
   <HorizontalCard
     title="Load Balancing in Large Scale Bayesian Inference"
     img="/loadbalancing_uq-rbc.png"
-    desc="Developed load balancing strategies for large-scale Bayesian inference on massively-parallel architectures, demonstrated across molecular dynamics, blood microfluidics, and pipe flow optimization applications."
+    desc="A novel strategy for load balancing in large-scale Bayesian inference, addressing workload imbalance in population-based sampling methods by concurrently scheduling independent experiments on shared worker nodes. Demonstrated on 512 nodes of the Piz Daint supercomputer for data-driven calibration of red blood cell membrane viscosity using hierarchical Bayesian inference."
     url="https://dl.acm.org/doi/abs/10.1145/3394277.3401849"
     badge="PASC 2020"
-    tags={['Load balancing', 'Distributed computing', 'MPI']}
+    tags={['Bayesian inference', 'Distributed computing', 'Load balancing']}
   />
 </BaseLayout>
