@@ -1,0 +1,19 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<details class="not-prose group bg-base-200 rounded-lg my-3 overflow-hidden">
+  <summary class="cursor-pointer select-none p-4 font-semibold text-base-content flex items-center justify-between hover:bg-base-300 transition-colors">
+    <span>{title}</span>
+    <svg class="w-5 h-5 text-base-content/50 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 pb-4 text-sm leading-relaxed text-base-content/80">
+    <slot />
+  </div>
+</details>

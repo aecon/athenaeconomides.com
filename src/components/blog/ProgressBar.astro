@@ -1,0 +1,17 @@
+---
+export interface Props {
+  label: string;
+  value: number;
+  color?: "primary" | "secondary" | "accent" | "success" | "warning";
+}
+
+const { label, value, color = "primary" } = Astro.props;
+---
+
+<div class="not-prose my-3">
+  <div class="flex justify-between text-sm mb-1">
+    <span class="font-medium text-base-content">{label}</span>
+    <span class="text-base-content/60">{value}%</span>
+  </div>
+  <progress class={`progress progress-${color} w-full`} value={value} max="100"></progress>
+</div>

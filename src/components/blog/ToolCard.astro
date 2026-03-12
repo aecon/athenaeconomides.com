@@ -1,0 +1,22 @@
+---
+export interface Props {
+  name: string;
+  description: string;
+  url?: string;
+  badge?: string;
+}
+
+const { name, description, url, badge } = Astro.props;
+---
+
+<div class="not-prose bg-base-100 border border-base-300 rounded-lg p-4 hover:shadow-lg hover:border-primary/30 transition-all duration-200 my-2">
+  <div class="flex items-start justify-between">
+    <div>
+      <h4 class="font-bold text-base-content">
+        {url ? <a href={url} target="_blank" class="hover:text-primary transition-colors">{name} ↗</a> : name}
+      </h4>
+      <p class="text-sm text-base-content/70 mt-1">{description}</p>
+    </div>
+    {badge && <span class="badge badge-primary badge-sm shrink-0 ml-2">{badge}</span>}
+  </div>
+</div>

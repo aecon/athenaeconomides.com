@@ -1,0 +1,24 @@
+---
+export interface Props {
+  type?: "info" | "warning" | "success" | "tip";
+  title?: string;
+}
+
+const { type = "info", title } = Astro.props;
+
+const styles = {
+  info:    { bg: "bg-info/10",    border: "border-info",    icon: "💡", defaultTitle: "Note" },
+  warning: { bg: "bg-warning/10", border: "border-warning", icon: "⚠️", defaultTitle: "Warning" },
+  success: { bg: "bg-success/10", border: "border-success", icon: "✅", defaultTitle: "Success" },
+  tip:     { bg: "bg-primary/10", border: "border-primary", icon: "🔬", defaultTitle: "Tip" },
+};
+
+const s = styles[type];
+---
+
+<div class={`not-prose ${s.bg} border-l-4 ${s.border} rounded-r-lg p-4 my-6`}>
+  <div class="font-bold text-base mb-1">{s.icon} {title || s.defaultTitle}</div>
+  <div class="text-sm leading-relaxed text-base-content/80">
+    <slot />
+  </div>
+</div>

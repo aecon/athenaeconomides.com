@@ -1,0 +1,123 @@
+---
+title: "The Quiet Revolution in Bio-Image Analysis"
+description: "Deep learning has transformed how we extract data from microscopy images — but the real bottleneck was never the model."
+pubDate: "Mar 12 2026"
+badge: "Featured"
+tags: ["bio-image analysis", "deep learning"]
+---
+
+import Callout from "../../components/blog/Callout.astro";
+import StatGrid from "../../components/blog/StatGrid.astro";
+import Accordion from "../../components/blog/Accordion.astro";
+import ComparisonTable from "../../components/blog/ComparisonTable.astro";
+import ToolCard from "../../components/blog/ToolCard.astro";
+import ProgressBar from "../../components/blog/ProgressBar.astro";
+
+*This post was generated using Claude Code as a demo of MDX capabilities — custom components, interactive elements, and rich layouts composed directly within Markdown.*
+
+---
+
+If you worked with fluorescence microscopy images ten years ago, you probably remember the pain: manual thresholding, hand-drawn ROIs, and hours spent clicking through Z-stacks. The results were reproducible only if the same person did the analysis on the same day in the same mood.
+
+Deep learning changed that. Models like U-Net and StarDist made it possible to segment cells and subcellular structures with superhuman consistency. Cellpose pushed things further by generalizing across cell types without retraining. The accuracy problem, for many tasks, is effectively solved.
+
+<StatGrid stats={[
+  { value: "10×", label: "Faster than manual" },
+  { value: "95%+", label: "Segmentation accuracy" },
+  { value: "10⁶", label: "Cells per experiment" },
+  { value: "0", label: "Coffee breaks needed" },
+]} />
+
+## So what's left?
+
+The bottleneck has shifted upstream and downstream. Upstream: getting training data that actually represents your biological question. Downstream: turning millions of per-cell measurements into biological insight.
+
+<Callout type="info" title="The real insight">
+  A segmentation mask is not an answer. It's the starting point for questions that require quantification pipelines aware of the biology — not just the pixels.
+</Callout>
+
+The kinds of questions that matter:
+
+- How does aggregate size change across treatment conditions?
+- Is the spatial distribution of puncta random or clustered?
+- Which morphological features predict cell fate?
+
+## Then vs. Now
+
+<ComparisonTable
+  headers={["Traditional Approach", "Modern Pipeline"]}
+  rows={[
+    ["Manual ROI drawing", "Automated instance segmentation"],
+    ["Threshold-based detection", "Learned feature extraction"],
+    ["Single-image analysis", "Batch processing across plates"],
+    ["Qualitative assessment", "Quantitative morphometrics"],
+    ["Hours per dataset", "Minutes per dataset"],
+    ["Operator-dependent results", "Reproducible across labs"],
+  ]}
+/>
+
+## The modern toolkit
+
+Here are some of the tools driving this shift — each solving a different piece of the puzzle.
+
+<ToolCard
+  name="Cellpose"
+  description="Generalist cell segmentation model. Works across cell types without retraining, using a style-transfer approach to handle diverse morphologies."
+  url="https://github.com/MouseLand/cellpose"
+  badge="Segmentation"
+/>
+
+<ToolCard
+  name="StarDist"
+  description="Star-convex polygon detection for nuclei. Fast, reliable, and plays well with ImageJ/Napari."
+  url="https://github.com/stardist/stardist"
+  badge="Nuclei"
+/>
+
+<ToolCard
+  name="napari"
+  description="Multi-dimensional image viewer for Python. Bridging the gap between exploration and automation with a plugin ecosystem."
+  url="https://napari.org"
+  badge="Visualization"
+/>
+
+<ToolCard
+  name="scikit-image"
+  description="The workhorse of image processing in Python. Everything from filters to morphological operations to feature extraction."
+  url="https://scikit-image.org"
+  badge="Processing"
+/>
+
+## Where the bottlenecks actually are
+
+It's tempting to think the hard problem is segmentation. In practice, it's everything else.
+
+<ProgressBar label="Segmentation accuracy" value={95} color="success" />
+<ProgressBar label="Training data quality" value={40} color="warning" />
+<ProgressBar label="Downstream quantification" value={55} color="primary" />
+<ProgressBar label="Pipeline reproducibility" value={60} color="secondary" />
+<ProgressBar label="Biological interpretation" value={30} color="accent" />
+
+## Deep dives
+
+<Accordion title="Why training data is harder than it looks">
+  The obvious approach — have an expert annotate 50 images — works until you realize your model needs to generalize across staining protocols, microscope types, cell densities, and passage numbers. What you really need is a *strategy* for annotation, not just annotations. Active learning helps: let the model tell you which images are most informative to label next.
+</Accordion>
+
+<Accordion title="The feature extraction problem">
+  Once you have a segmentation mask, you can measure hundreds of features per cell: area, eccentricity, intensity statistics, texture, spatial context. But which features matter? High-dimensional phenotypic profiling (à la Cell Painting) shows that the answer is: more than you think, and not the ones you'd pick by hand.
+</Accordion>
+
+<Accordion title="Closing the loop with experimental design">
+  The most exciting frontier is adaptive experiments. Imagine a pipeline where: (1) you image a plate, (2) the pipeline segments and quantifies in real time, (3) the results inform which conditions to image next or which wells to follow up. This requires not just fast analysis, but *reliable* analysis — you need to trust the pipeline enough to let it make decisions.
+</Accordion>
+
+## Where I think things are heading
+
+<Callout type="tip" title="The convergence">
+  The most exciting work right now sits at the intersection of image analysis and experimental design. When your pipeline is fast and reliable enough, you can close the loop: let the data from one experiment inform the design of the next, automatically.
+</Callout>
+
+We're not quite there yet for most labs. But the pieces are falling into place — and the labs that adopt these tools early are already seeing 10× improvements in throughput without sacrificing rigor.
+
+The quiet revolution isn't about any single model or tool. It's about the moment when image analysis stops being a bottleneck and starts being a *driver* of biological discovery.

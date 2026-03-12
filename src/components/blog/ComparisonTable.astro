@@ -1,0 +1,27 @@
+---
+export interface Props {
+  headers: [string, string];
+  rows: [string, string][];
+}
+
+const { headers, rows } = Astro.props;
+---
+
+<div class="not-prose overflow-x-auto my-8">
+  <table class="table table-zebra w-full rounded-lg overflow-hidden">
+    <thead>
+      <tr class="bg-primary text-primary-content">
+        <th class="text-sm font-bold">{headers[0]}</th>
+        <th class="text-sm font-bold">{headers[1]}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr class="hover">
+          <td class="text-sm">{row[0]}</td>
+          <td class="text-sm">{row[1]}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

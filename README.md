@@ -126,3 +126,43 @@ For deployment, you have two options:
 * GitHub Pages: add a GitHub Actions workflow — Astro has a ready-made one in their docs, or you can add a .github/workflows/deploy.yml - USED THIS ONE.
 
 
+## Blog
+
+### Adding a new post
+
+1. Create a file in `src/content/blog/` — use `.md` for plain text or `.mdx` to embed interactive components.
+2. Add frontmatter at the top:
+
+```markdown
+---
+title: "Your Post Title"
+description: "A short summary shown on the blog listing."
+pubDate: "Mar 15 2026"
+---
+
+Your content here.
+```
+
+Optional frontmatter fields:
+- `heroImage: "/image.jpg"` — banner image (put the file in `public/`)
+- `badge: "New"` — label shown on the card
+- `tags: ["topic1", "topic2"]` — clickable tags
+
+3. Run `npm run dev` and visit `http://localhost:4321/blog` — the post shows up automatically.
+
+No routing or config changes needed — Astro picks up any new file in `src/content/blog/`.
+
+### MDX components
+
+MDX posts (`.mdx`) can import components from `src/components/blog/`:
+
+```mdx
+import Callout from "../../components/blog/Callout.astro";
+import StatGrid from "../../components/blog/StatGrid.astro";
+import Accordion from "../../components/blog/Accordion.astro";
+import ComparisonTable from "../../components/blog/ComparisonTable.astro";
+import ToolCard from "../../components/blog/ToolCard.astro";
+import ProgressBar from "../../components/blog/ProgressBar.astro";
+```
+
+See `src/content/blog/bio-image-analysis.mdx` for a full example using all of these.
